@@ -2,6 +2,7 @@ import Image from "next/image";
 import AboutPage from "./About/Page";
 import FeaturesPage from "./Features/Page";
 import TestimonialPage from "./Testimonial/Page";
+import ContactPage from "./Contact/Page";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
 <AboutPage/>
 <FeaturesPage/>
 <TestimonialPage/>
+<ContactPage/>
   </div>
   );
 }
