@@ -32,10 +32,10 @@ const Header = () => {
           <Image src={Logo} width={150} height={150} alt="logo" className="" />
         </a>
         <nav className=" w-auto h-auto flex justify-center items-center p-2">
-          <ul className="flex gap-2 lg:gap-7 xl:gap-10 w-full h-auto">
+          <ul className="md:flex gap-2 lg:gap-7 hidden xl:gap-10 w-full h-auto">
             {navItem &&
               navItem.map(({ link, name }, index) => (
-                <li className="flex flex-col items-center gap-1 h-auto w-auto uppercase text-sm group hover:font-bold font-normal">
+                <li key={index} className="flex flex-col items-center gap-1 h-auto w-auto uppercase text-sm group hover:font-bold font-normal">
                   <a href={link}>{name}</a>
                   <Image
                     src={Border}
