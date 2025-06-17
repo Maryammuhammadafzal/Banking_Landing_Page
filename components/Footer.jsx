@@ -32,7 +32,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="copy"></div>
+        <div className="copyright flex justify-between sm:flex-row md:flex-col items-center w-full py-2">
+          <p className="md:text-sm text-md">
+            © 2021 all copyright reserved. <a href="">Rootlet Solution</a>.
+          </p>
+          <ul className="flex gap-3 md:text-lg text-sm">
+            {" "}
+            <li>Privacy Policy</li> <li>Term & Consition</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
