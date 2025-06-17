@@ -1,6 +1,7 @@
 import { Manrope } from "next/font/google";
 import "./globals.css";
 import HeroPage from "./Hero/Page";
+import Footer from "@/components/Footer";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
       >
         <HeroPage/>
         {children}
-        {/* <Footer/> */}
+        <Footer/>
       </body>
     </html>
   );
