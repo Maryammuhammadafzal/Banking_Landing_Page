@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Logo from "../public/logo.png";
 import Border from "../public/border.png";
+import { MenuIcon } from "lucide-react";
 const Header = () => {
   let navItem = [
     {
@@ -47,6 +48,7 @@ const Header = () => {
                 </li>
               ))}
           </ul>
+          <MenuIcon className="text-black text-xl md:hidden block"/>
         </nav>
       </div>
     </header>
