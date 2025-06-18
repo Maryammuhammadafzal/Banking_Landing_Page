@@ -6,7 +6,7 @@ import HeroImage from "../../public/hero-image.png";
 import Image from "next/image";
 const HeroPage = () => {
   return (
-    <div className="w-full lg:min-h-screen pb-10 font-sans relative overflow-hidden h-auto flex justify-center items-center">
+    <div className="w-full h-auto pb-10 font-sans relative overflow-hidden flex justify-center items-center">
       <div
         className="bg-center absolute top-0 -z-10 left-0 opacity-45 bg-cover w-full h-full"
         style={{ backgroundImage: `url(${HeroBg.src})` }}
