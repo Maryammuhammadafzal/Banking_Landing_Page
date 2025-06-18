@@ -1,8 +1,10 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import HeadingBorder from "../../public/heading-border.png";
-
+import { useEffect } from "react";
 const PricingPage = () => {
+
   return (
     <div className="w-full h-auto flex justify-center md:py-20 py-10  items-center">
       <div className="w-[90%] h-auto flex flex-col items-center gap-5">
@@ -19,61 +21,8 @@ const PricingPage = () => {
           />
         </div>
 
-        <div className="w-ful h-auto">
-                <div class="slider-wrap">
-  <div id="card-slider" class="slider">
-    <div class="slider-item">
-        <div class="animation-card_image">
-            <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt=""/>
-        </div>
-        <div class="animation-card_content">
-            <h4 class="animation-card_content_title title-2">Charlize Theron 1</h4>
-            <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-            <p class="animation-card_content_city">New York, NY</p>
-        </div>
-    </div>
-    <div class="slider-item">
-        <div class="animation-card_image">
-            <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt=""/>
-        </div>
-        <div class="animation-card_content">
-            <h4 class="animation-card_content_title title-2">Charlize Theron 2</h4>
-            <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-            <p class="animation-card_content_city">New York, NY</p>
-        </div>
-    </div>
-    <div class="slider-item">
-        <div class="animation-card_image">
-            <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt=""/>
-        </div>
-        <div class="animation-card_content">
-            <h4 class="animation-card_content_title title-2">Charlize Theron 3</h4>
-            <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-            <p class="animation-card_content_city">New York, NY</p>
-        </div>
-    </div>
-    <div class="slider-item">
-        <div class="animation-card_image">
-            <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt=""/>
-        </div>
-        <div class="animation-card_content">
-            <h4 class="animation-card_content_title title-2">Charlize Theron 4</h4>
-            <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-            <p class="animation-card_content_city">New York, NY</p>
-        </div>
-    </div>
-    <div class="slider-item">
-        <div class="animation-card_image">
-            <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt=""/>
-        </div>
-        <div class="animation-card_content">
-            <h4 class="animation-card_content_title title-2">Charlize Theron 5</h4>
-            <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-            <p class="animation-card_content_city">New York, NY</p>
-        </div>
-    </div>
-</div>
-</div> 
+        <div className="w-full flex justify-center items-center h-auto relative">
+          <div className="1 w-[375px] h-[572px] bg-[#E6E6E6] rounded-4xl py-6 px-3 flex flex-col relative justify-between"></div>
         </div>
       </div>
     </div>
@@ -81,5 +30,3 @@ const PricingPage = () => {
 };
 
 export default PricingPage;
-
- 

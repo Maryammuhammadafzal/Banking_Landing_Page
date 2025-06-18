@@ -5,7 +5,9 @@ import TestimonialPage from "./Testimonial/Page";
 import ContactPage from "./Contact/Page";
 import PricingPage from "./Pricing/Page";
 
+
 export default function Home() {
+ 
   return (
   <div  className="w-full h-auto font-sans overflow-hidden bg-[#EEEEEE]">
 <AboutPage/>
