@@ -1,6 +1,9 @@
 import React from "react";
 import HeadingBorder from "../../public/heading-border.png";
 import FeatureImage1 from "../../public/feature-image-1.png";
+import FeatureImage2 from "../../public/feature-image-2.png";
+import FeatureImage3 from "../../public/feature-image-3.png";
+import FeatureImage4 from "../../public/feature-image-4.png";
 import FeatureCenterImage from "../../public/feature-center-image.png";
 import Image from "next/image";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
@@ -64,37 +67,37 @@ const FeaturesPage = () => {
             <Card className="xs:w-[200px] w-[45%] bg-[#E6E6E6] xs:h-[200px] h-auto flex justify-center items-center">
               <CardContent className="flex flex-col gap-3 justify-center items-center text-center">
                 <Image 
-                src={FeatureImage1}
+                src={FeatureImage2}
                 width={40}
                 height={40}
                 alt="feature-icon"
                 className=""
                 />
-                <p className="font-bold sm:text-base text-sm">24/7 Account Access</p>
+                <p className="font-bold sm:text-base text-sm">Fast and Secure Transfers</p>
               </CardContent>
             </Card>
             <Card className="xs:w-[200px] w-[45%] bg-[#E6E6E6] xs:h-[200px] h-auto flex justify-center items-center">
               <CardContent className="flex flex-col gap-3 justify-center items-center text-center">
                 <Image 
-                src={FeatureImage1}
+                src={FeatureImage3}
                 width={40}
                 height={40}
                 alt="feature-icon"
                 className=""
                 />
-                <p className="font-bold sm:text-base text-sm">24/7 Account Access</p>
+                <p className="font-bold sm:text-base text-sm">Bill Payments Simplified</p>
               </CardContent>
             </Card>
             <Card className="xs:w-[200px] w-[45%] bg-[#E6E6E6] xs:h-[200px] h-auto flex justify-center items-center">
               <CardContent className="flex flex-col gap-3 justify-center items-center text-center">
                 <Image 
-                src={FeatureImage1}
+                src={FeatureImage4}
                 width={40}
                 height={40}
                 alt="feature-icon"
                 className=""
                 />
-                <p className="font-bold sm:text-base text-sm">24/7 Account Access</p>
+                <p className="font-bold sm:text-base text-sm">Mobile Banking App</p>
               </CardContent>
             </Card>
           </div>

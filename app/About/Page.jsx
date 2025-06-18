@@ -47,7 +47,7 @@ const AboutPage = () => {
         <div className="cards w-full flex flex-wrap gap-10 justify-center items-center">
           {about_data &&
             about_data.map(({ title, description, button }, index) => (
-              <Card key={index} className="py-6 px-1 h-[273px] w-[273px] bg-[#E6E6E6] hover:text-white hover:bg-[#C7D216]">
+              <Card key={index} className="py-6 px-1 xs:h-[273px] h-auto w-[273px] bg-[#E6E6E6] hover:text-white hover:bg-[#C7D216]">
                 <CardContent className="text-center  space-y-4">
                   <h2 className="text-xl font-extrabold uppercase">
                   {title}

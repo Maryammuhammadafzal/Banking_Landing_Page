@@ -6,11 +6,11 @@ import { FaSquareInstagram, FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className="w-full h-auto font-sans flex justify-center items-center py-10">
+    <div className="w-full h-auto font-sans flex justify-center overflow-hidden items-center py-10">
       <div className="w-[90%] flex flex-col gap-5 items-center">
         <div className="flex flex-col items-center gap-4 py-10 w-full h-auto ">
-          <div className="w-full h-auto flex flex-col gap-3 ">
-            <h1 className="font-extrabold text-neutral-100 text-center w-full xl:text-6xl md:text-5xl max-w-3xl sm:text-4xl xs:text-4xl text-4xl 2xl:text-[170px] 2xl:leading-40 lg:leading-18 sm:leading-14 leading-10  uppercase">
+          <div className="w-full h-auto flex flex-col gap-3 text-center">
+            <h1 className="font-extrabold text-neutral-100 text-center w-auto xl:text-[170px] lg:text-[148px] md:text-[110px] sm:text-[90px] xs:text-[68px] text-5xl 2xl:text-[170px] 2xl:leading-40 lg:leading-18 sm:leading-14 leading-10  uppercase">
               FutureBank
             </h1>
             <Image
