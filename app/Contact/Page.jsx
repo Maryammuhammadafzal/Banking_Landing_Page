@@ -5,7 +5,7 @@ import ContactImage from "../../public/contact-image.png";
 import Image from "next/image";
 const ContactPage = () => {
   return (
-    <div className="w-full py-30 font-sans relative overflow-hidden h-auto flex justify-center items-center">
+    <div className="w-full md:py-30 py-15 font-sans relative overflow-hidden h-auto flex justify-center items-center">
       <div className=" w-full h-full flex justify-center items-center">
         <div className="w-full px-3 h-full items-center justify-start flex flex-col gap-4">
             <div className="flex md:flex-row flex-col w-full h-full items-center ">
