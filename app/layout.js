@@ -23,10 +23,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gsap/1.19.1/TweenMax.min.js"></script>
-      </head>
       <body
         className={`${manrope.variable}`}
       >
